@@ -1,0 +1,29 @@
+.header {
+    background: gray;
+}
+
+.number {
+    text-align: right;
+}
+
+table,
+th,
+td {
+    border: 10px solid;
+}
+
+table {
+    background-color: aqua;
+}
+
+table tr:nth-child(even) {
+    background-color: pink;
+}
+
+.nezucastnil {
+    background-color: red;
+}
+
+table {
+    border-collapse: collapse;
+}
