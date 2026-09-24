@@ -26,4 +26,5 @@ table tr:nth-child(even) {
 
 table {
     border-collapse: collapse;
+    
 }

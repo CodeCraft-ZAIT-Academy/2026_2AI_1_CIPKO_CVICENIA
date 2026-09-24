@@ -1,0 +1,28 @@
+.andrej {
+    width: 200px;
+    border-radius: 15%;
+    object-fit: cover;
+}
+
+.peto {
+    width: 200px;
+    height: 200px;
+}
+
+.mato {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.search-bar {
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.search-bar3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
