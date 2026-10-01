@@ -3,44 +3,106 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIVs</title>
-    <link rel="stylesheet" href="ulohaday4style.css">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
 
-    <input class="search-bar1" style="border-radius: 10px; display: block;" type="text" placeholder="Search">
-    <img class="andrej"
-        src="https://wallpapercat.com/w/full/4/6/1/1165730-3840x2160-desktop-4k-landscape-background.jpg"
-        alt="nepodarilo sa nacitat obrazok" width="200">
-
-
-    <img class="peto" src="https://wallpaperaccess.com/full/1624051.jpg" alt="nepodarilo sa nacitat obrazok"
-        width="200">
-
-
-    <img class="mato" src="https://wallpaperaccess.com/full/1143632.jpg" alt="nepodarilo sa nacitat obrazok"
-        width="200">
-
-    <br>
-    <input class="search-bar1" style="border-radius: 10px; display: block;" type="text" placeholder="Search">
-
-    <input class="search-bar2" style="border-radius: 5px;" type="text" placeholder="Search google or type URL">
-
-    <img class="search-bar3" src="https://wallpaperaccess.com/full/1143632.jpg" style="object-position: left;">
-
-    <input class="search-bar" style="border-radius: 10px;" type="text" placeholder="Whats happening?">
-
-    <button class="search-bar" style="border-radius: 10px; background-color: aqua;" type="submit">Tweet</button>
-
-    <div>
-        <p>How is life in hobbiton?</p>
-        <p>Frodo Baggins</p>
-        <p>10B view 2 years ago</p>
+    <div class="search-box">
+        <img class="circle-img"
+            src="https://wallpapercat.com/w/full/4/6/1/1165730-3840x2160-desktop-4k-landscape-background.jpg"
+            alt="Profile Picture">
+        <input class="search-bar" type="text" placeholder="Search...">
     </div>
 
+    <div class="grid">
+
+        <div class="card">
+            <img src="https://wallpapercat.com/w/full/4/6/1/1165730-3840x2160-desktop-4k-landscape-background.jpg"
+                width="300" height="400">
+            <p>Beautiful view of Switzerland mountains</p>
+            <p>Lake</p>
+            <p>10 mil. views 2 years ago</p>
+        </div>
+
+        <div class="card">
+            <img src="https://wallpaperaccess.com/full/1624051.jpg" width="300" height="400">
+            <p>Night shot of Time square</p>
+            <p>City</p>
+            <p>25 mil. views 5 days ago</p>
+
+
+        </div>
+
+        <div class="card">
+            <img src="https://wallpaperaccess.com/full/1143632.jpg" width="300" height="400">
+            <p>Sunshine at the lake</p>
+            <p>Lake</p>
+            <p>25 mil. views 1 week ago</p>
+
+
+        </div>
+    </div>
 
 </body>
+
+<style>
+    .search-box {
+        margin: 0 auto;
+        gap: 5px;
+        width: 300px;
+        align-items: center;
+        display: flex;
+        border: 1px solid #ccc;
+        margin-bottom: 15px;
+
+    }
+
+    .circle-img {
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        object-fit: cover;
+        margin-left: 2px;
+
+    }
+
+    .search-bar {
+        flex: 1;
+        background-color: #f5f8fa;
+        font-size: 16px;
+        outline: none;
+        border: none;
+        align-items: bottom;
+        color: black;
+        margin: 2px;
+    }
+
+    .search-bar::placeholder {
+        color: black;
+    }
+
+    .search-bar:focus::placeholder {
+        opacity: 0;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin: 0 auto;
+    }
+
+    .card img {
+        width: 100%;
+        aspect-ratio: 3/4;
+        object-fit: cover;
+    }
+
+    .card p {
+        margin: 4px 0 0;
+    }
+</style>
 
 </html>
