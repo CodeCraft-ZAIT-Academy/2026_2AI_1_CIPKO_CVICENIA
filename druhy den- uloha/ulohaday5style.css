@@ -57,3 +57,136 @@
     column-gap: 20px;
     row-gap: 40px;
 }
+
+.mpfp {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.lupab {
+    background-color: lightgray;
+    width: 110px;
+    height: 44px;
+    border: 1px solid black;
+}
+
+.lupa {
+    width: 30px;
+    height: 30px;
+}
+
+.notification {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.notificationb {
+    display: inline-block;
+    position: relative;
+
+
+}
+
+.number {
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    right: 20px;
+    font-family: Roboto, Arial;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.timespant {
+    color: white;
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    bottom: 437px;
+    left: 468px;
+}
+
+.timespant2 {
+    color: white;
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    bottom: 437px;
+    left: 1010px;
+}
+
+.timespant3 {
+    color: white;
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    bottom: 437px;
+    left: 1556px;
+}
+
+.timespant4 {
+    color: white;
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    bottom: 23px;
+    left: 468px;
+}
+
+.timespant5 {
+    color: white;
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    bottom: 23px;
+    left: 1010px;
+}
+
+.timespant6 {
+    color: white;
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    bottom: 23px;
+    left: 1556px;
+}
+
+.sidebar {}
